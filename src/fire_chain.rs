@@ -20,7 +20,9 @@ pub struct BlockHeader{
     timestamp: i64,
     nonce : u32,
     difficulty : u32,
-    merkle_root: String
+    merkle_root: String,
+    block_height: u32,
+    
 }
 
 #[derive(Serialize,Clone, Debug)]
