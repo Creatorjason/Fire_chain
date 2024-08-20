@@ -9,6 +9,7 @@ mod fire_chain;
 fn main() {
     let mut miner_addr = String::new();
     let mut difficulty = String::new();
+// based on user input 
     let mut choice = String::new();
     println!("Input a miner's address:");
     io::stdout().flush();
